@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Home</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        header, footer { background: #333; color: white; padding: 10px 20px; text-align: center; }
+        nav { margin-top: 10px; text-align: center; }
+        nav a { margin-right: 10px; color: white; text-decoration: none; }
+        section { margin-top: 20px; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        @media (max-width: 600px) {
+            .container { width: 100%; margin: auto; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Personal Website</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to my website! Here you can find information about my professional work, personal projects, and ways to contact me.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm [Your Name], a [Your Profession] with a passion for [Your Passion]. I've studied at [Your School] and have worked in [Your Industry] for [Number] years.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Below are some of my recent projects and accomplishments:</p>
+            <!-- Include images or links to your projects here -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>Copyright © [Current Year] [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
